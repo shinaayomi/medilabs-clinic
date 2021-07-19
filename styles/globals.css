@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'Black';
+    src: url("/font/AvenirLTStd-Black.otf");
+}
+
+@font-face {
+    font-family: 'EuclidCircularB';
+    src: url("/font/EuclidCircularB-Bold.woff");
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url("/font/Metropolis-Regular.otf");
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Regular";
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.navbar button {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.navbar button:hover {
+    background: rgba(255, 255, 255, 0.4);
+    border-color: transparent;
+}
+
+
+/* Profile */
+
+.profile {
+    background: linear-gradient(180deg, #FFFFFF 0%, #FCFAFA 100%), #2041C6;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.profile_pics {
+    position: relative;
+    width: 115px;
+    height: 115px;
+    margin: auto;
+}
+
+.profile_pics:after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 13px;
+    width: 15px;
+    height: 15px;
+    background: #3E64FF;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.big_weight {
+    font-weight: 700;
+}
+
+.small_text {
+    font-size: 14px;
+    color: #6B779A;
+    font-weight: 500;
+}
+
+.small_weight {
+    font-size: 12px;
+    color: #6B779A;
+    font-weight: 500;
+}
+
+.smaller_text {
+    font-size: 10px;
+    color: #6B779A;
+    font-weight: 500;
+}
+
+.big_text {
+    font-size: 18px;
+}
+
+.colored {
+    color: #6B779A;
+}
+
+
+/* Card */
+
+.card {
+    box-shadow: 0px 10px 25px rgba(107, 119, 154, 0.05);
+    border-radius: 21px !important;
+}
+
+
+/* Covid-Card */
+
+.covid-card {
+    color: #fff;
+    background: url("/img/illustration.png") no-repeat bottom center;
+    background-size: 296px 251px;
+    background-color: #3E64FF !important;
+    height: 438px;
+    box-shadow: 0px 25px 58px rgba(62, 100, 255, 0.3);
+}
+
+
+/* CARDLIST */
+
+.card-list {
+    text-align: center;
+    border: none !important;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.0625);
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.card_pic {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+.card_pic .active {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background: #3E64FF;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.profile_review textarea::placeholder {
+    font-size: 14px;
+    color: #6B779A;
+    font-weight: 500;
+}
+
+textarea {
+    resize: none !important;
+}
+
+.profile_review .float-right {
+    width: 277px;
+    height: 60px;
+    background: #3E64FF;
+    border-radius: 20px;
+}
+
+
+/* #sup {
+    display: none;
+} */
+
+
+/* TrackTransaction */
+
+.track {
+    background: rgba(0, 204, 178, 0.13);
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.track .txt {
+    color: #00CCB2;
+}
+
+.timer .nav-link {
+    background: #FFFFFF;
+    border: 1px solid rgba(107, 119, 154, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #6B779A;
+    font-size: 14px;
+}
+
+.timer .nav-link:hover {
+    background-color: #3E64FF;
+    color: #fff;
+}
+
+
+/* FAQ */
+
+.navbar {
+    background-color: #3E64FF;
+}
+
+.faqNav {
+    height: 362px;
+    background-color: #3E64FF;
+    position: relative;
+}
+
+.faqNav p {
+    position: absolute;
+    bottom: 0;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFEFB;
+}
+
+.faq_content {
+    background: url("/img/bgtop.svg") no-repeat left bottom, url("/img/bgdown.svg") no-repeat right top;
+    background-size: 148px 309px, 151px 199px;
+}
+
+.faq_content p {
+    font-size: 14px;
+}
+
+.faq_question {
+    background-color: rgba(148, 140, 140, 0.1);
+    border-radius: 10px;
+}
+
+
+/* ABOUT */
+
+.medi-apple {
+    min-height: 100vh;
+    background-image: url(../public/img/Group\ 9393.png);
+    background-repeat: no-repeat;
+    background-size: 36% auto;
+    background-position: top right;
+}
+
+.medi-apple h1 {
+    font-size: 50px;
+}
+
+.medi-apple .big {
+    font-size: 24px;
+}
+
+.medi-apple .choose {
+    background: #F87369;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+}
+
+.narrow_btn {
+    width: 56px;
+    height: 56px;
+    background: #E8F3F5;
+    border-radius: 70px;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .profile_review .float-right {
+        width: auto;
+        height: auto;
+    }
+    .faq_content {
+        background: none;
+    }
+}
